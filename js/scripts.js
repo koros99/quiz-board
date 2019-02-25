@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function() {
   $("form#login").submit(function(event) {
     $("#quiz").show();
@@ -8,6 +9,106 @@ $(document).ready(function() {
 
   $("#user").show()
 
+=======
+//front-end logic
+
+$(document).ready(function() {
+  $("button#button1").click(function() {
+    $("#class2").toggle();
+    $("#class1").hide();
+  });
+
+  $("button#button2").click(function() {
+    $("#class2").hide();
+    $("#class3").toggle();
+  });
+  $("button#button2p").click(function() {
+    $("#class1").toggle();
+    $("#class2").hide();
+  });
+
+  $("button#button3").click(function() {
+    $("#class3").hide();
+    $("#class4").toggle();
+  });
+  $("button#button3p").click(function() {
+    $("#class3").hide();
+    $("#class2").toggle();
+  });
+
+  $("button#button4").click(function() {
+    $("#class4").hide();
+    $("#class5").toggle();
+  });
+  $("button#button4p").click(function() {
+    $("#class4").hide();
+    $("#class3").toggle();
+  });
+
+  $("button#button5").click(function() {
+    $("#class5").hide();
+    $("#class6").toggle();
+  });
+  $("button#button5p").click(function() {
+    $("#class5").hide();
+    $("#class4").toggle();
+  });
+
+  $("button#button6").click(function() {
+    $("#class6").hide();
+    $("#class7").toggle();
+  });
+  $("button#button6p").click(function() {
+    $("#class6").hide();
+    $("#class5").toggle();
+  });
+
+  $("button#button7").click(function() {
+    $("#class7").hide();
+    $("#class8").toggle();
+  });
+  $("button#button7p").click(function() {
+    $("#class7").hide();
+    $("#class6").toggle();
+  });
+
+  $("button#button8").click(function() {
+    $("#class8").hide();
+    $("#class9").toggle();
+  });
+  $("button#button8p").click(function() {
+    $("#class8").hide();
+    $("#class7").toggle();
+  });
+
+  $("button#button9").click(function() {
+    $("#class9").hide();
+    $("#class10").toggle();
+  });
+  $("button#button9p").click(function() {
+    $("#class9").hide();
+    $("#class8").toggle();
+  });
+
+  $("button#button10p").click(function() {
+    $("#class10").hide();
+    $("#class9").toggle();
+  });
+  $("button#button10").click(function() {
+    $("#class10").hide();
+    $("#result").toggle();
+  })
+  $("button#button11").click(function() {
+    location.reload(true);
+  });
+
+
+
+
+
+
+  //back-end logic
+>>>>>>> try-out
   $("form#qstns").submit(function(event) {
     event.preventDefault();
     var inputAnswer = [];
