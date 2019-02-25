@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-$(document).ready(function() {
-  $("form#login").submit(function(event) {
-    $("#quiz").show();
-    $(".card").hide();
-    $("#log-in").hide();
-    event.preventDefault();
-  });
-
-  $("#user").show()
-
-=======
 //front-end logic
 
 $(document).ready(function() {
@@ -108,7 +96,7 @@ $(document).ready(function() {
 
 
   //back-end logic
->>>>>>> try-out
+
   $("form#qstns").submit(function(event) {
     event.preventDefault();
     var inputAnswer = [];
