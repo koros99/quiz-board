@@ -1,0 +1,9 @@
+body{
+  background-image:  url("https://userscontent2.emaze.com/images/fd3fdddf-0448-4f57-baa6-4c08b60f8baa/9e430b351378dc00510f3c0e0eb75f49.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#quiz{
+  display: none;
+}
