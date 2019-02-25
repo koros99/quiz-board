@@ -1,9 +1,38 @@
 body{
-  background-image:  url("https://userscontent2.emaze.com/images/fd3fdddf-0448-4f57-baa6-4c08b60f8baa/9e430b351378dc00510f3c0e0eb75f49.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.479), rgba(255, 255, 255, 0.877)),   url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 #class2, #class3, #class4, #class5, #class6, #class7, #class8, #class9, #class10, #submit, #result{
   display: none;
+}
+.container{
+  margin-top: 5%;
+  padding: 2%;
+}
+.card-heading{
+  font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+.card:hover{
+  box-shadow: 10px 10px 5px #08adce;
+}
+#sub-head{
+  text-align: center;
+  font-family: 'Rochester', cursive;
+  font-size: 30px;
+
+}
+.card{
+  background-color: rgba(0, 0, 0, 0.7);
+  color:white;
+}
+button{
+  border-radius: 20px;
+}
+#qstns{
+  font-family: 'Overlock', cursive;
 }
